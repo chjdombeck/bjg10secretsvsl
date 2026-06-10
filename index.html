@@ -367,10 +367,11 @@
       <div class="divider"></div>
 
       <!-- Video embed -->
-      <div class="video-wrap">
-        <video controls playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
-          <source src="UpdatedPowerPointPresentation.mp4" type="video/mp4" />
-        </video>
+      <div style="position:relative; width:100%; border-radius:12px; overflow:hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.15), 0 16px 40px rgba(0,0,0,0.2);">
+        <script src="https://fast.wistia.com/player.js" async></script>
+        <script src="https://fast.wistia.com/embed/306ni3pl3c.js" async type="module"></script>
+        <style>wistia-player[media-id='306ni3pl3c']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/306ni3pl3c/swatch'); display: block; filter: blur(5px); padding-top:62.5%; }</style>
+        <wistia-player media-id="306ni3pl3c" aspect="1.6" style="width:100%; display:block;"></wistia-player>
       </div>
 
       <div class="divider"></div>
